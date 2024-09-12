@@ -375,6 +375,80 @@
         <mxCell id="GCo2jeuxj3yod2GUhZTQ-165" value="demande de saisi&lt;div&gt;&amp;nbsp;d&#39;un nouveau formulaire&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="110" y="673" width="160" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="GCo2jeuxj3yod2GUhZTQ-166" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry y="940" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="GCo2jeuxj3yod2GUhZTQ-168" value="user" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="GCo2jeuxj3yod2GUhZTQ-166">
+          <mxGeometry x="75" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GCo2jeuxj3yod2GUhZTQ-167" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.017;exitY=0.15;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.987;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="GCo2jeuxj3yod2GUhZTQ-166">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-9.103828801926284e-14" y="30" as="sourcePoint" />
+            <mxPoint x="200.8000000000001" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GCo2jeuxj3yod2GUhZTQ-185" value="- id INT (auto increment)&lt;div&gt;- firstname VARCHAR(50)&lt;/div&gt;&lt;div&gt;-lastname VARCHAR (50)&lt;/div&gt;&lt;div&gt;-password hash&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;VARCHAR (225)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- email VARCHAR(100)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- number INT (10)&lt;/div&gt;&lt;div&gt;-adress VARCHAR (100)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="GCo2jeuxj3yod2GUhZTQ-166">
+          <mxGeometry y="25" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="GCo2jeuxj3yod2GUhZTQ-169" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="940" width="200" height="200" as="geometry">
+            <mxRectangle x="260" y="940" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GCo2jeuxj3yod2GUhZTQ-170" value="list" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="GCo2jeuxj3yod2GUhZTQ-169">
+          <mxGeometry x="80" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GCo2jeuxj3yod2GUhZTQ-173" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.017;exitY=0.15;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.987;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="GCo2jeuxj3yod2GUhZTQ-169">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="30" as="sourcePoint" />
+            <mxPoint x="200" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GCo2jeuxj3yod2GUhZTQ-187" value="- id INT (auto increment)&lt;div&gt;- name VARCHAR(50)&lt;/div&gt;&lt;div&gt;- description (VARCHAR 100)&lt;/div&gt;&lt;div&gt;- type VARCHAR (50)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- pegi INT (10)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- price INT (10)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- stock INT (10)&lt;/div&gt;&lt;div&gt;- img&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="GCo2jeuxj3yod2GUhZTQ-169">
+          <mxGeometry y="30" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="GCo2jeuxj3yod2GUhZTQ-171" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="514" y="940" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="GCo2jeuxj3yod2GUhZTQ-172" value="shop" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="GCo2jeuxj3yod2GUhZTQ-171">
+          <mxGeometry x="75" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GCo2jeuxj3yod2GUhZTQ-174" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.017;exitY=0.15;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.987;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="GCo2jeuxj3yod2GUhZTQ-171">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="30" as="sourcePoint" />
+            <mxPoint x="200" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GCo2jeuxj3yod2GUhZTQ-175" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1210" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="GCo2jeuxj3yod2GUhZTQ-176" value="detail" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="GCo2jeuxj3yod2GUhZTQ-175">
+          <mxGeometry x="75" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GCo2jeuxj3yod2GUhZTQ-177" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.017;exitY=0.15;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.987;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="GCo2jeuxj3yod2GUhZTQ-175">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-0.8000000000001251" y="30" as="sourcePoint" />
+            <mxPoint x="200.0000000000001" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GCo2jeuxj3yod2GUhZTQ-178" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;&lt;u&gt;diagramme de sequence&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="255" y="83" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GCo2jeuxj3yod2GUhZTQ-179" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;&lt;u&gt;diagramme de classe&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="870" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GCo2jeuxj3yod2GUhZTQ-180" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="529" y="1210" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="GCo2jeuxj3yod2GUhZTQ-181" value="backorder / mongoDb" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="GCo2jeuxj3yod2GUhZTQ-180">
+          <mxGeometry x="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GCo2jeuxj3yod2GUhZTQ-182" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.017;exitY=0.15;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.987;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="GCo2jeuxj3yod2GUhZTQ-180">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-0.8000000000001251" y="30" as="sourcePoint" />
+            <mxPoint x="200.0000000000001" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
